@@ -1,0 +1,499 @@
+body, html{
+  height: 100%;
+  margin:0;
+  /*background-color: black;*/
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+.parallax {
+  overflow: auto;
+  /* The image used */
+  background-image: url("../Pictures/jm-dav-muLm0SUrrf4-unsplash.jpg");
+ /* opacity: 0.6;*/
+  /* Full height */
+  height: 100%; 
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inside-div-second{
+	height: 600px;
+	width: 60%;
+  border:4px solid black;
+  /* background-color: #161616; */
+	margin: 15% 5%;
+}
+#picture{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	width:580px;
+  height:720px; 
+  border: 5px solid white;
+  display: inline;
+  float: left;
+}
+
+.Colored-try-out{
+  height: 1000px;
+  background-image: url("../Pictures/Capture.PNG");
+	width: auto;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-size:auto;
+}
+
+/*----------------------------------------------------------------------------------*/
+/* The navigation bar */
+#navbar {
+  background-color: #333; /* Black background color */
+  background:transparent;
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+#navbar .right {
+  float: right;
+  border: 1px solid;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+#navbar .right1 {
+  float: right;
+  border: 1px solid;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+
+   #button-form{
+     /* border: 2px solid black; */
+     margin-left: 1%;
+     margin-top: 0.2%;
+     font-family: 'Lato', sans-serif;
+     width: 5%;
+   }
+   #button-form1{
+    /* border: 2px solid black; */
+    font-family: 'Lato', sans-serif;
+    margin-left: 0.5%;
+    margin-top: 0.2%;
+    width: 6%;
+    height: 5%;
+  }
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#position-and-style{
+  position: relative;
+  top: 60%;
+  left: 0;
+  width: 2.5cm;
+  background:transparent;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  text-decoration-line: none;
+  height: 1cm;
+}
+#position-and-style:hover{
+  background-color: white;
+  color: black;
+}
+/*-------------------------------------------------------------------------*/
+#text-main{
+  display:inline;
+ text-align:center;
+ font-size:20px;
+ color: white;
+ font-family: 'Major Mono Display', monospace;
+ float: right;
+ margin-left: 3.1cm;
+ margin-top: 10%;
+ flex: content;
+ flex-direction: column;
+}
+#text-main1{
+  display:inline;
+ text-align: center;
+ font-size:20px;
+ color: white;
+ font-family: 'Major Mono Display', monospace;
+
+ float: right;
+ margin-right: 3%;
+ margin-top: 2%;
+}
+#second-text{
+  display:inline;
+  text-align: center;
+  font-size:20px;
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  float: right;
+  margin-right: 6%;
+  margin-top: 2%;
+} 
+
+/*-------------------------------------------------------------------------*/
+
+#new-div-title{
+  /* border:1px solid white;  */
+  overflow: hidden;
+  width: 650px;
+  height: 509px;
+  position: relative;
+  top: 20%;
+  margin: 0 auto;
+ 
+
+}
+#main-title{
+  font-family: 'Cutive Mono', monospace;
+  color: white;
+  /* margin: 30% 10%; */
+  font-size: 3cm;
+  margin-bottom: 0%;
+  margin-top:18.8%;
+  text-align:center;
+}
+#second-title{
+  color: white;
+  text-align: center;
+}
+
+#button-log-in{
+  width: 2.8cm;
+  height: 1cm;
+  margin-left: 4.2cm;
+  flex-direction: row;
+  flex: auto;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+
+}
+
+.more-btn {
+  text-align: center;
+}
+#button-more {
+  width: 2.8cm;
+  height: 1cm; 
+  margin:auto;
+  flex-direction: row;
+  flex: auto;
+  background: transparent;
+  border:2px solid white;
+  color: white;
+}
+
+#button-more:hover{
+  background-color: #ddd;
+  color: black;
+  cursor:pointer;
+}
+#button-log-in:hover{
+  background-color: white;
+  color: black;
+  cursor:pointer;
+}
+abbr{
+  text-decoration: none;
+  text-decoration-color: none
+  ;
+}
+
+/*<---------------------------------------------------------------------->*/
+#Special-for-slideshow{
+  width: auto;
+  height: 700px;
+
+  position: relative;
+  top: 70px;
+  right: 42px;
+  float: right;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.Grayscaler{
+  filter: grayscale(100%);
+}
+
+
+/*-------------------------------------------------------------------------------New Main-------------------------------------------------------------------*/
+#newmain{
+  width: 100%;
+  background-image: url("../Pictures/Capture.PNG");
+}
+#footer {
+  display: flex;
+}
+.text-side, .img-box {
+  flex: 1;
+}
+.text-side img {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  background: rgba(255,255,255, 0.1);
+  border-radius: 50%;
+}
+.text-side img:hover {
+  background: rgba(255,255,255, 0.3);
+  cursor: pointer;
+}
+.text-side ul {
+  list-style: none;
+}
+.text-side ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#text{
+  width: 50%;
+  height: 350px;
+  border: 1px solid black;
+}
+#adres{
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 20px;
+  color: white;
+}
+#aboutus{
+  font-family: 'JetBrains Mono', monospace;
+  margin-left: 60%;
+  color: white;
+}
+#p123{
+  
+  font-weight: bold;
+ color: white;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+#like{
+  text-decoration: none;
+  
+}
+/* img{
+filter: grayscale(0);
+filter:invert(100);
+} */
+#trying
+{
+  /* border:1px solid black; */
+  width: 50%;
+  height:300px;
+  display: inline-flexbox;
+  float:right;
+}
+
+ 
+.right-text-box, .left-text-box {
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+
+.right-text-box p, .left-text-box p {
+  padding-bottom: 20px;
+}
+
+.text-box {
+  flex: 1;
+  padding: 2em;
+}
+
+.image-box {
+  flex: 2;
+  padding: 2em;
+}
+
+.right-text-box  {
+  flex: 1;
+}
+
+.read-more-wrapper {
+  display: flex;
+}
+
+.right-text-box .read-more-wrapper{
+  justify-content: flex-end;
+}
+
+.read-more-btn {
+  border: 1px solid #ddd;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  transition: all .3s ease;
+}
+
+.filtered {
+  filter: grayscale(100);
+}
+
+.read-more-btn:hover{ 
+  background-color: rgba(255,255,255,0.1);
+  border-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .right-text-box {
+    flex-direction: column;
+  }
+  .left-text-box {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #position {
+    left: 10px;
+  }
+
+  #main h1 {
+    padding-left: 10%;
+  }
+  .line-1 {
+    
+    white-space: pre-wrap;
+    overflow: hidden;
+  }
+
+  
+  #navbar a {
+    min-width: 24%;
+  }
+
+}
